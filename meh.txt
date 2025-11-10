@@ -1,0 +1,20 @@
+define keliling :
+    do 4 :
+        if next_to_a_beeper :
+            pickbeeper
+        turnleft
+        move
+        if next_to_a_beeper :
+            pickbeeper
+        move
+do 3 :
+    do 3 :
+        move
+    keliling
+turnleft
+turnleft
+do 9 :
+    move
+turnleft
+turnleft
+turnoff

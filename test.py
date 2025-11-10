@@ -23,8 +23,15 @@
     
 
 # print(total)
-j= 1
-while j<158:
-    print(j, end="  ")
-    j =2*j
+# j= 1
+# while j<158:
+#     print(j, end="  ")
+#     j =2*j
     
+x = 6 
+if x % 2 == 0 :
+    print("genap")
+elif x % 3 == 0 :
+    print("habis dibagi 3")
+else :
+    print("ganjil")

@@ -1,4 +1,4 @@
-password_benar = "Badu"
+password_benar = "Zaidan"
 kesempatan = 3
 
 while kesempatan > 0:

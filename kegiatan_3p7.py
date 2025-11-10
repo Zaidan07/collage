@@ -3,7 +3,7 @@ waktu = float(input("Masukkan waktu : "))
 
 jam = int(waktu)
 
-if 4 <= jam <= 10:
+if 1 <= jam <= 10:
     ucapan = "Selamat pagi"
 elif 11 <= jam <= 14:
     ucapan = "Selamat siang"

@@ -7,7 +7,7 @@ bangun = {
 }
 
 print("No | Nama Bangun       | Rumus Luas")
-print("-------------------------------------")
+print("---|-------------------|------------------")
 
 no = 1
 for nama, rumus in bangun.items():

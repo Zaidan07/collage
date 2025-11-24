@@ -16,7 +16,7 @@ def bantuan():
 bantuan()
 pilihan = input("\nPilihan saudara: ")
 
-while pilihan.lower() != 'k':
+while pilihan != 'k':
     if pilihan == 'b':
         bantuan()
     elif pilihan == 'N':

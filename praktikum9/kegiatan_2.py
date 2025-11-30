@@ -13,10 +13,10 @@ hari, bulan, tahun = tgl.split("-")
 tgl_baru = f"{bulan}/{hari}/{tahun}"
 
 with open(nama_file, "w") as f:
-    f.write(f"Nama:{nama}\n")
+    f.write(f"Nama:{nama}\n")  
     f.write(f"Kota:{kota}\n")
     f.write(f"Tanggal:{tgl_baru}\n")
-    f.write(f"NIM:{nim}\n")
+    f.write(f"NIM:{nim}\n")     
 
 with open(nama_file) as f:
     lines = [line.strip() for line in f.readlines()]

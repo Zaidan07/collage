@@ -3,3 +3,6 @@ Rare Item
 Common Item
 Common Item
 Epic Item
+[Common] Wooden Sword
+[Common] Wooden Sword
+[Epic] Dragon Slayer

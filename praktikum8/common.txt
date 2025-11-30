@@ -1,0 +1,4 @@
+Potion
+Wooden Sword
+Cloth Armor
+Apple

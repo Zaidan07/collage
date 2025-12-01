@@ -8,7 +8,7 @@ print("Server siap...")
 c, a = s.accept()
 print("Terhubung dengan : ", a)
 
-sisi = 0   # tempat menyimpan parameter sisi persegi
+sisi = 0  
 
 while True:
     perintah = c.recv(1024).decode().lower()

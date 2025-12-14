@@ -1,0 +1,17 @@
+print("Content-Type: text/html\n")
+print("<!DOCTYPE html>")
+print("<html>")
+print("<head><title>Data Diri CGI</title></head>")
+print("<body>")
+
+print("<h2>Data diri</h2>")
+print("<table border='1' cellpadding='5'>")
+print("<tr><td>Nama</td><td>: Muhammad Zaidan Nabih</td></tr>")
+print("<tr><td>Alamat</td><td>: Tegalan, 02/04, Kateguhan, Tawangsari, Sukoharjo</td></tr>")
+print("<tr><td>Tempat, Tanggal Lahir</td><td>: Sukoharjo, 08 Oktober 2006</td></tr>")
+print("<tr><td>Tempat Wisata Favorit</td><td>: Kamar pribadi</td></tr>")
+print("<tr><td>Moto</td><td>: Tetaplah dijalan tuhan walaupun kadang belok dikit</td></tr>")
+print("</table>")
+
+print("</body>")
+print("</html>")

@@ -1,8 +1,12 @@
 import tkinter as tk
+from ttkbootstrap import Style
 
 app = tk.Tk()
 app.title("Kalkulator")
 app.geometry("330x250")
+Style(theme="darkly")
+
+
 
 tk.Label(app, text="Angka 1").pack(anchor="w", padx=20, pady=(15,0))
 e1 = tk.Entry(app, width=20)
@@ -14,7 +18,7 @@ e2.pack(padx=20)
 
 def op(fn):
     try:
-        a, b = float(e1.get()), float(e2.get())
+        a, b = int(e1.get()), int(e2.get())
         result["text"] = fn(a, b)
     except:
         result["text"] = "Input salah"
